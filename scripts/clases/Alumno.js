@@ -5,4 +5,16 @@ export default class Alumno extends Usuario{
         super(nombres,apellidos, correo, activo)
         this.cursosTomados = cursosTomados
     }
+    getNombre(){
+        return this.nombres
+    }
+    getApellido(){
+        return this.apellidos
+    }
+    getCorreo(){
+        return this.correo
+    }
+    getActivo(){
+        return this.activo
+    }
 }

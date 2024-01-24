@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="ed-grid">
-        <h1>EDcursos</h1>
+        <h1>EDCursos</h1>
         <form id="formCursos">
             <div class="ed-grid m-grid-4">
                 <div class="form-item">
@@ -38,6 +38,50 @@
         </form>
     </div>
     <div class="ed-grid m-grid-4 s-grid-2 row-gap" id="cursos">  
+
+    </div>
+    <br>
+    <br>
+
+
+    <div class="ed-grid">
+        <h1>EDAlumnos</h1>
+        <form id="formAlumno">
+            <div class="ed-grid m-grid-5">
+                <div class="form-item">
+                    <label>
+                        Nombre
+                        <input type="text" name="nombreA" required>
+                    </label>
+                </div>
+                <div class="form-item">
+                    <label>
+                        Apellido
+                        <input type="text" name="apellidoA" required>
+                    </label>
+                </div>
+                <div class="form-item">
+                    <label>
+                        Correo
+                        <input type="email" name="correoA"  required>
+                    </label>
+                </div>
+                <div class="form-item m-py-4">
+                    <label>
+                        Activo
+                        <input type="checkbox" name="activoA" >
+                    </label>
+                </div>
+                <div class="form-item m-py-3">
+                    <label>
+                        <input class="button" type="submit" value="Crear Alumno">
+                    </label>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div class="ed-grid m-grid-4 s-grid-2 row-gap" id="Alumnos">  
 
     </div>
     <script type="module" src="./scripts/index.js"></script>
